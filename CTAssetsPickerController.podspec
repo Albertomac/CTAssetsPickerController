@@ -23,5 +23,5 @@ Pod::Spec.new do |spec|
   spec.resource_bundles      = { 'CTAssetsPickerController' => ['CTAssetsPickerController/Resources/CTAssetsPicker.xcassets/*/*.png', 'CTAssetsPickerController/Resources/*.lproj'] }
   spec.ios.frameworks        = 'Photos'
   spec.requires_arc          = true
-  spec.dependency            'PureLayout', '~> 2.0.0'
+  spec.dependency            'PureLayout
 end
