@@ -229,7 +229,7 @@
         CGFloat top = self.thumbnailStacks.edgeInsets.top;
         size.height += top;
         
-        [NSLayoutconstraint autoSetPriority:UILayoutPriorityRequired forConstraints:^{
+        [NSLayoutConstraint autoSetPriority:UILayoutPriorityRequired forConstraints:^{
             [self.thumbnailStacks autoSetDimensionsToSize:size];
         }];
                 
