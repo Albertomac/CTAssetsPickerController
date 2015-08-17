@@ -10,14 +10,14 @@ Pod::Spec.new do |spec|
                                It uses **ARC** and **Photos** frameworks.
                                DESC
 
-  spec.homepage              = 'https://github.com/chiunam/CTAssetsPickerController'
-  spec.screenshot            = 'https://raw.github.com/chiunam/CTAssetsPickerController/master/Screenshot.png'
+  spec.homepage              = 'https://github.com/Albertomac/CTAssetsPickerController'
+  spec.screenshot            = 'https://raw.github.com/Albertomac/CTAssetsPickerController/master/Screenshot.png'
   spec.license               = { :type => 'MIT', :file => 'LICENSE' }
   spec.author                = { 'Clement T' => 'chiunam@gmail.com' }
   spec.social_media_url      = 'https://twitter.com/chiunam'
   spec.platform              = :ios, '8.0'
   spec.ios.deployment_target = '8.0'
-  spec.source                = { :git => 'https://github.com/chiunam/CTAssetsPickerController.git', :tag => 'v3.0.2' }
+  spec.source                = { :git => 'https://github.com/Albertomac/CTAssetsPickerController.git', :tag => 'v3.0.2' }
   spec.public_header_files   = 'CTAssetsPickerController/*.h'
   spec.source_files          = 'CTAssetsPickerController/**/*.{h,m}'
   spec.resource_bundles      = { 'CTAssetsPickerController' => ['CTAssetsPickerController/Resources/CTAssetsPicker.xcassets/*/*.png', 'CTAssetsPickerController/Resources/*.lproj'] }
